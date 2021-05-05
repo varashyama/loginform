@@ -81,14 +81,14 @@ export default function SignUp() {
             // firstname validation
             if (!values.firstName){
               errors.firstName = 'Enter your firstname';
-            } else if(values.firstName.length < 4 || values.firstName.length > 10){
+            } else if(values.firstName.length < 4 || values.firstName.length > 15){
               errors.firstName = 'Firstname is too short or too long';
             }
 
             // lastname validation
             if (!values.lastName){
               errors.lastName = 'Enter your lastname';
-            } else if(values.lastName.length < 4 || values.lastName.length > 10){
+            } else if(values.lastName.length < 4 || values.lastName.length > 15){
               errors.lastName = 'name is too short or too long';
             }
 

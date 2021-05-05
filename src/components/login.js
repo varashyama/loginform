@@ -19,6 +19,7 @@ function checkData(values,history){
 
       sessionStorage.setItem('jwtToken', response.data.token);
       console.log('token generated');
+      console.log(response.data.token);
       history.push("/details");
 
     }
